@@ -1,4 +1,4 @@
-###Closing Analysis  
+<h3>Closing Analysis  <h6></h6>
   
   
 After a meticulous analysis of the Chinook Music Stores sales data, it is evident that to enhance the stores music collection strategically based on track sales,  
