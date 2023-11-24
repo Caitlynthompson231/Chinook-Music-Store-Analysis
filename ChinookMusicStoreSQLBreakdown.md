@@ -1,15 +1,15 @@
-#Chinook Music Store Business Analysis  
+<h1>Chinook Music Store Business Analysis 
+  </h6>
+  
 **Author**: Caitlyn Thompson  
-**Email**: caitynthompsonsql@gmail.com
+**Email**: caitynthompsonsql@gmail.com  
 **LinkedIn**: www.linkedin.com/in/caitlynthompsonsql  
 **Website**: https://caitlynthompson231.github.io/CaitlynThompson.github.io/  
   
   
-##👋Introduction👋
-In this project we will be doing a business analysis of albums and tracks sold by different artists and different profit per genre to find which three artists are most recommended to buy to 
-sell at the record store in Chinook
+<h2>Questions and Answers  
+  <h6></h6>  
   
-##Questions and Answers
 1. _How many tracks are sold in each genre?_  
 ````sql  
 SELECT GEN.name AS Genre, COUNT(*) AS TracksSold
@@ -49,7 +49,9 @@ Comedy	|9
 Science Fiction|	6
 Rock And Roll	|6
   
-#####What are we looking at?
+<h4>What are we looking at?  
+  <h6></h6>  
+  
   In this query we present an assessment on the volume of tracks sold per genre within the database using a structured JOIN operation to gather data from 3 different tables and we rely on an aggregated function that effectivey quantifies the number of tracks sold and finish with an order by statement to unveil the highest performing genres first 
 
 2. _What is the percentage of tracks sold in the USA?_
@@ -95,7 +97,9 @@ World	|0
 Electronica/Dance|	0
   
   
-#####What are we looking at?  
+<h4>What are we looking at?  
+  <h6></h6>  
+  
 In this query we present an assesment in the volume of tracks sold per genre from the United States and this time by percent instead of absolute numbers. This can help us get a better understanding of which genre's are the highest selling, which is a starting point to answer which artists should purchased to go in the Chinook Music store. So now we will figure out which artists are the top 3 highest selling so we can make an educated choice.
   
 3. _What are the top 3 selling artists based off of their track sales?_ 
