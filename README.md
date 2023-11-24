@@ -1,1 +1,1 @@
-# Chinook-Music-Store-Analysis
+# Chinook-Music-Store-SQL-Analysis
